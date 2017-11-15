@@ -1,30 +1,41 @@
 // pages/cal/cal.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
+// 页面的初始数据
   data: {
-      number:0
+      number:"0",
+      id1:"clear",
+      id2: "zhengfu",
+      id3: "baifenhao",
+      id4: "chu",
+      id5: "7",
+      id6: "8",
+      id7: "9",
+      id8: "plus",
+      id9: "4",
+      id10: "5",
+      id11: "6",
+      id12: "jian",
+      id13: "1",
+      id14: "2",
+      id15: "3",
+      id16: "jia",
+      id17: "0",
+      id18: ".",
+      id19: "dengyu"
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
+  // 生命周期函数--监听页面加载
   onLoad: function (options) {
   
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
+  // 生命周期函数--监听页面初次渲染完成
   onReady: function () {
   
   },
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
+  // 生命周期函数--监听页面显示
   onShow: function () {
   
   },
@@ -62,5 +73,18 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  btnClick:function(event){
+      console.log(event.target.id);
+      // console.log(event);
+      let number1 = this.data.number;
+      if(number1 == "0"){
+      this.setData({number:event.target.id});
+      } else {
+        let newNumber = this.data.number + event.target.id;
+        this.setData({number:newNumber});
+      }
+     
   }
 })
