@@ -1,0 +1,41 @@
+<view class='wrap'>
+  <!-- 数字显示区 -->
+    <view class='show'>
+        <view>{{number}}</view>
+    </view>
+
+  <!-- 操作区 -->
+    <view class='btnGroup'>
+      <view class='item gray'>AC</view>
+      <view class='item gray'>+/-</view>
+      <view class='item gray'>%</view>
+      <view class='item orange'>÷</view>
+    </view>
+
+    <view class='btnGroup'>
+      <view class='item lightgray'>7</view>
+      <view class='item lightgray'>8</view>
+      <view class='item lightgray'>9</view>
+      <view class='item orange'>X</view>
+    </view>
+
+    <view class='btnGroup'>
+      <view class='item lightgray'>4</view>
+      <view class='item lightgray'>5</view>
+      <view class='item lightgray'>6</view>
+      <view class='item orange'>-</view>
+    </view>
+
+    <view class='btnGroup'>
+      <view class='item lightgray'>1</view>
+      <view class='item lightgray'>2</view>
+      <view class='item lightgray'>3</view>
+      <view class='item orange'>+</view>
+    </view>
+
+     <view class='btnGroup'>
+      <view class='item lightgray ' style='width:368rpx'>0</view>
+      <view class='item lightgray'>.</view>
+      <view class='item orange'>=</view>
+    </view>
+</view>

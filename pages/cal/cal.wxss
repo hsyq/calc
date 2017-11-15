@@ -1,0 +1,44 @@
+.show {
+  width: 750rpx;
+  height: 300rpx;
+  background: #202020;
+  font-size: 130rpx;
+  font-weight: 400;
+  color:#fff;
+}
+
+.show view {
+  text-align: right;
+  padding-right:10rpx;
+  padding-top: 150rpx; 
+}
+
+
+.btnGroup {
+  background: red;
+  width: 750rpx;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.btnGroup .item {
+  font-size: 60rpx;
+  border: 2rpx #999A9C solid;
+  width: 183.5rpx;
+  height: 160rpx;
+  line-height: 160rpx;
+  text-align: center;
+}
+
+.btnGroup .orange {
+  background: #F98F12;
+  color: #fff;
+}
+
+.lightgray {
+  background: #D1D2D4;
+}
+.gray {
+  background: #C4C5C6;
+}
